@@ -1,0 +1,117 @@
+heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    color: #000000;
+    margin: auto;
+
+}
+
+
+* {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+
+
+body {
+    background-color: #ffffff;
+
+}
+
+
+.first {
+    background-color: #999999;
+    margin-top: 30px;
+    padding: 2px 10px 2px 10px;
+    height: 150px;
+    width: 400px;
+    border: #000000 2px solid;
+}
+
+
+
+.first h1 {
+    background-color: #CB9998;
+    padding: 1px 10px 10px 10px;
+    width: 40%;
+    height: 10%;
+    border: #000000 2px solid;
+    margin: 0px 0px 0px 74%;
+  
+
+}
+
+
+.second {
+    background-color: #999999;
+    margin-top: 30px;
+    padding: 2px 10px 2px 10px;
+    height: 150px;
+    width: 400px;
+    border: #000000 2px solid;
+
+}
+
+.second h1 {
+    background-color: #6A2E2B;
+    padding: 1px 10px 10px 10px;
+    width: 40%;
+    height: 10%;
+    border: #16213E 2px solid;
+    margin: 0px 0px 0px 84%;
+    color: #ffffff;
+    
+}
+
+.third {
+    background-color: #999999;
+    margin-top: 30px;
+    padding: 2px 10px 2px 10px;
+    height: 150px;
+    width: 400px;
+    border: #000000 2px solid;
+
+}
+
+.third h1 {
+    background-color: #AEA37B;
+    padding: 1px 10px 10px 10px;
+    width: 40%;
+    height: 10%;
+    border: #16213E 2px solid;
+    margin: 0px 0px 0px 83%;
+}
+
+h1 {
+    color: #16213E;
+}
+
+/* desktop view*/
+@media (min-width:992px) {
+    div {
+        width: 33%;
+    }
+
+
+}
+
+/* tablet view*/
+@media (min-width:768px) and (max-width:991px) {
+    div {
+        width: 50%;
+    }
+}
+
+
+/* mobile view */
+@media (min-width:767px) {
+    div {
+        width: 100%;
+    }
+
+}
